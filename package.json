@@ -1,0 +1,23 @@
+{
+  "name": "try-dynamic-import",
+  "version": "1.0.0",
+  "description": "Wraps dynamic imports, making their failure catchable in the event browser support is missing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gryphonmyers/try-dynamic-import.git"
+  },
+  "keywords": [
+    "import",
+    "es-modules"
+  ],
+  "author": "Gryphon Myers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gryphonmyers/try-dynamic-import/issues"
+  },
+  "homepage": "https://github.com/gryphonmyers/try-dynamic-import#readme"
+}
