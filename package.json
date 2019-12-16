@@ -6,6 +6,7 @@
   "module": "dist/try-dynamic-import.esm.js",
   "browser": "index.js",
   "scripts": {
+    "build": "npm run build:es && npm run build:cjs && npm run build:cjs:min && npm run build:es:min",
     "build:es": "NODE_ENV=production rollup --config rollup.config.js --format es --file ./dist/try-dynamic-import.esm.js",
     "build:cjs": "NODE_ENV=production rollup --config rollup.config.js --format cjs --file ./dist/try-dynamic-import.js",
     "build:cjs:min": "NODE_ENV=production rollup --config rollup.config.js --format cjs | terser > ./dist/try-dynamic-import.min.js",
