@@ -1,6 +1,6 @@
 {
   "name": "try-dynamic-import",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wraps dynamic imports, making their failure catchable in the event browser support is missing.",
   "main": "dist/try-dynamic-import.js",
   "module": "dist/try-dynamic-import.esm.js",
